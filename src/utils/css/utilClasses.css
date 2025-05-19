@@ -1,0 +1,133 @@
+
+/* variables */
+:root {
+  --color-primary: rgb(38, 38, 38, 0.8);
+  --color-primary-light:  #4d4d4d;
+  --color-secondary: rgb(173, 255, 47, 1);
+  --color-secondary-light: rgba(181, 242, 142, 0.8);
+
+  --color-bg-light: #f7f5f5;
+  
+
+  --color-text-white: #f1f1f1;
+  --color-text-dark: #1e293b;
+  --color-text-grey: #475569;
+
+  --color-btn-bg-disabled: rgb(128, 137, 131);
+  --color-icon-blue: 'blue';
+  --color-icon-red: 'red';
+  --box-shadow-dark: 0 12px 30px rgba(0, 0, 0, 0.12);
+  
+  --clr-green: green;
+  --clr-light-green: #a5db9c;
+  --clr-white: #fff;
+  --clr-light-white: #dbeafe;
+  --clr-light-grey: rgb(179, 182, 179);
+  --success: #41fb3a;
+  --warn: #f3c744;
+  --error: #f42929;
+  --info: #055aba;
+  --snackbar-left-border-success: #22bb33;
+  --snackbar-left-border-warn: #e5b420;
+  --snackbar-left-border-info: #09478d;
+  --snackbar-left-border-error: rgb(193, 20, 10);
+}
+
+/* variables end */
+
+/* reusable classes */
+
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-justify-start {
+  justify-content: flex-start;
+}
+
+.row-space-between {
+  justify-content: space-between;
+}
+
+.column-justify-start {
+  justify-content: flex-start;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-mini {
+  gap: 5px
+}
+
+.gap-small {
+  gap: 10px
+}
+
+.space-evenly {
+  justify-content: space-around;
+}
+
+.divider {
+  border-bottom: 0.5px solid var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-light) !important;
+}
+
+.border-radius-default {
+  border-radius: 1rem;
+}
+
+.margin-vertical-default {
+  margin: 10px 0 10px 0
+}
+
+.margin-horizontal-default {
+  margin: 0 10px 0 10px
+}
+
+.margin-default {
+  margin: 10px 10px 10px 10px
+}
+
+.padding-vertical-default {
+  padding: 10px 0 10px 0
+}
+
+.padding-horizontal-default {
+  padding: 0 10px 0 10px
+}
+
+.padding-default {
+  padding: 10px 10px 10px 10px
+}

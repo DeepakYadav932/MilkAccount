@@ -1,0 +1,25 @@
+.btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: inherit;
+  box-shadow: 0 0 100px var(--color-secondary);
+  transition: all 0.1s;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-disabled {
+  color: var(--color-text-white);
+  background-color: color-btn-bg-disabled;
+  
+}
+
+.btn:active {
+  transform: translateY(-0.1rem);
+}
+
+.btn-login {
+  background-color: var(--color-secondary);
+}

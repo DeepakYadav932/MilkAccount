@@ -1,0 +1,23 @@
+.icon-btn {
+  background-color: transparent;
+  display: inline;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  background-color: var(--color-secondary-light);
+  color: var(--color-secondary);
+}
+
+.icon-btn:active {
+  transform: scale(0.95);
+}

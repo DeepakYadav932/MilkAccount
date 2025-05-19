@@ -1,0 +1,20 @@
+{
+  "user": {
+    "greeting": "Bonjour, {{name}} !"
+  },
+  "login": {
+    "boxTitle": "Connectez-vous à votre compte...",
+    "button": "Se connecter",
+    "loading": "Connexion en cours...",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "success": {
+      "msg": "Vous vous êtes connecté avec succès !!",
+      "title": "Connexion réussie"
+    },
+    "failed": {
+      "message": "{{message}}",
+      "title": "Échec de la connexion"
+    }
+  }
+}

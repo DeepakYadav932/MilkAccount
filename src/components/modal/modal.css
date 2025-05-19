@@ -1,0 +1,45 @@
+.modal-backdrop {
+  --modal-bg: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--modal-bg);
+  z-index: 9;
+}
+
+.modal-content {
+  background: var(--color-primary);
+  min-width: 300px;
+  max-width: 500px;
+  box-shadow: 0 10px 25px var(--color-primary);
+  position: relative;
+  text-align: center;
+}
+
+.modal-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background-color: var(--clr-light-grey);
+  padding: 0 10px 0 10px;
+  padding-block: 10px;
+  color: var(--color-primary);
+  border-radius: inherit;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.modal-body {
+  margin-bottom: 1.5rem;
+  padding-inline: 1rem;
+}
+
+.modal-close-btn {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-secondary);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}

@@ -1,0 +1,21 @@
+{
+  "user": {
+    "greeting": "Hello, {{name}}!"
+  },
+  "login": {
+    "boxTitle": "Log in to you account...",
+    "button": "Log in",
+    "loading": "Logging in...",
+    "username": "Username",
+    "password": "Password",
+    "success": {
+      "msg": "You have logged in successfully!!",
+      "title": "Login Successful"
+    },
+    "failed": {
+      "message": "Wrong username",
+      "title": "Login Failed"
+    }
+  }
+
+}

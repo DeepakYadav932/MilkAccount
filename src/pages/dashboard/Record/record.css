@@ -1,0 +1,15 @@
+.cards-container {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background: linear-gradient(to bottom right, var(--clr-light-green) , var(--clr-light-white));
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--clr-green);
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.total-row-bg {
+  background-color: var(--color-primary);
+}
+

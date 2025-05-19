@@ -1,0 +1,25 @@
+
+.container {
+  margin: 2px 0 2px 0;
+  
+}
+.login-input {
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  border-radius: 5px;
+  height: 30px;
+  font-family: inherit;
+  padding-left: 0.5rem;
+
+}
+
+.input-label {
+  align-self: flex-start;
+  font-size: medium;
+  color: var(--color-text-white);
+}
+
+input:focus {
+  outline: none; /* remove default browser outline */
+  box-shadow: 0 0 0 1px var(--color-secondary) /* nice glow effect */
+}

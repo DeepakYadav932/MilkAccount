@@ -1,0 +1,69 @@
+
+/*  import Winky Rough font*/
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* import other css files */
+@import "../src/utils/css/utilClasses.css";
+
+
+/* basic root level formatting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: white;
+  /* background-color: var(--color-secondary); */
+  overflow-x: hidden;
+  /* background: radial-gradient(ellipse,transparent 0%, var(--color-secondary) 25%, transparent 100%); */
+}
+
+/* commented code for curves */
+/* background: radial-gradient(
+        ellipse 100% 40% at 70% 14%,
+        var(--color-secondary)  30%,
+        40%,
+        transparent 90%
+      ),
+      conic-gradient(
+        at 50% 30.3%,
+        var(--color-secondary) 0.235turn,
+        transparent 0.235turn 0.765turn,
+        var(--color-secondary) 0.765turn
+      ); */
+
+/* root level formatting end */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+ 
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+ 
+}

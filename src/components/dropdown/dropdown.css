@@ -1,0 +1,31 @@
+
+/* select element style */
+
+.select{
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M70 100 L40 60 L100 60 Z' fill='%23444'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  font-family: "Winky Rough", sans-serif;
+  font-size: medium;
+}
+
+.select:focus {
+  border-color: #66afe9;
+  outline: none;
+  box-shadow: 0 0 10px var(--color-primary)
+}
+
+
+/* select element style end */

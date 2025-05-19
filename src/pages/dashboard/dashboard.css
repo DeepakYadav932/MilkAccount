@@ -1,0 +1,25 @@
+
+.main-section {
+  flex-grow: 1;
+  margin: 20px;
+  margin-top: 15.5rem;
+}
+
+.month-picker-container {
+  position: fixed;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 5rem 0 5rem;
+  padding: 20px;
+  background-color: var(--clr-white);
+  gap: 10px
+}
+
+.picker-label {
+  font-size: medium;
+  color: var(--clr-text-white) !important;
+  font-weight: 400;
+}
