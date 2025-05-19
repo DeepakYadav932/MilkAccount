@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "../dashboard/dashboard";
 import { LoginPage } from "../login/login";
 import ProtectedRoute from "../protected-route/protected-route";
@@ -13,7 +13,7 @@ import { Sales } from "../dashboard/Sales/sales";
  */
 const AppRoutes: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* Public Route for Login */}
         <Route path="/login" element={<LoginPage />} />
@@ -33,7 +33,7 @@ const AppRoutes: React.FC = () => {
         {/* TODO: to style the not found page */}
         <Route path="*" element={<h1>404 Page Not Found</h1>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

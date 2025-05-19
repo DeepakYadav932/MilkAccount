@@ -59,7 +59,7 @@ export const LoginPage: React.FC = () => {
   return (
     <div className="login-page-container centered full-height full-width flex-column">
       <div className="logo">
-        <img height={150} src="/logo.jpg" className="logo"></img>
+        <img height={150} src="logo.jpg" className="logo"></img>
       </div>
 
       <div className="login-container bg-primary border-radius-default">
